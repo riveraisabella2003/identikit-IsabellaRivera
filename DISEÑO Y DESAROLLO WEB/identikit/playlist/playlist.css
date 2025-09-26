@@ -1,0 +1,124 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: azure;
+}
+
+
+
+nav ul{
+    background-color: rgba(207, 95, 196, 0.429);
+
+}
+
+nav li {
+    display: inline-block;
+    background-color: rgb(132, 132, 165);
+}
+
+.container{
+    background-color: rgb(209, 204, 204);
+    text-align: center;
+}
+
+aside{
+    display: inline-block;
+    background-color: rgb(99, 91, 118);
+    width: 20%;
+    height: 100%
+}
+
+aside li{
+    list-style: none;
+    background-color: rgb(99, 91, 118)
+}
+
+main{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgb(189, 189, 195);
+    width: 78%;
+    height: 100%
+
+}
+
+#pie {
+    padding-inline: 120px;
+}
+
+footer{
+    background-color:rgba(207, 95, 196, 0.429);
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.columna {
+    display: inline-block;
+    width: 25vw;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.columna li {
+    list-style-type: none;
+}
+
+#columna2 {
+    text-align: center;
+    list-style-type: none;
+}
+
+#columna3 li {
+    display:inline-block ;
+}
+
+#volver {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.barra-navegacion {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(227, 219, 228);
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.barra-navegacion li {
+  display: inline-block;
+    width: 100px;
+  height: 50px;
+  text-align: center;
+  margin: 0;
+
+}
+
+.barra-navegacion li a {
+  background-color: antiquewhite;
+  padding: 10px 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: rgba(58, 1, 78, 0.847);
+  font-size:  16px;
+
+
+}
+
+.corazon {
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+}

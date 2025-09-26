@@ -1,0 +1,44 @@
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+body {
+  text-align: center;
+  background-color: #882848;
+  font-family: Arial, sans-serif;
+}
+
+.titulo {
+  background-color: rgb(212, 150, 212);
+  padding: 10px;
+}
+
+.texto {
+   text-align: center;
+   width: 80%;
+   margin: 10px auto;
+   font-size: 18px;
+}
+
+.imagen {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+}
